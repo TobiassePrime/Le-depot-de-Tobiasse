@@ -26,7 +26,16 @@ def accueil():
 # ---------------------------------------------------------------
 @app.get("/presentation")
 def presentation():
-    return "Je suis batman"
+    return """
+    <h1>Anagostou prime</h1>
+    <p>Je suis prof en <strong>première année d'informatique</strong>.</p>
+    <h2>Ce que je kiffe </h2>
+    <ul>
+        <li>Sempai</li>
+        <li>Gratter la fesse</li>
+        <li>gougle coulab</li>
+    </ul>
+    """
 
 
 # ---------------------------------------------------------------
