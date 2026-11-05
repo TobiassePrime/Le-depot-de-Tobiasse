@@ -32,6 +32,19 @@ def presentation():
 def loisirs():
     return "J'aime la macarena et le beatbox"
 
+@app.get("/presentation")
+def presentation():
+    return """
+    <h1>Dimitrios Anagostou</h1>
+    <p>Je suis étudiante en <strong>première année de senpai</strong>.</p>
+    <h2>Ce que j'aime</h2>
+    <ul>
+        <li>Gougle coulab</li>
+        <li>Pietone</li>
+        <li>Scalpelle</li>
+    </ul>
+    """
+
 
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
