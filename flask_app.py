@@ -97,13 +97,5 @@ def moi():
         entetes=request.headers,
     )
     
-# ---------------------------------------------------------------
-#  Ne pas modifier : utile seulement pour lancer le site
-#  sur votre propre ordinateur (python flask_app.py)
-# ---------------------------------------------------------------
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
-#  sur votre propre ordinateur (python flask_app.py)
-# ---------------------------------------------------------------
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
