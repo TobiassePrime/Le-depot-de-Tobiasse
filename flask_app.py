@@ -32,7 +32,7 @@ def presentation():
 def loisirs():
     return "J'aime la macarena et le beatbox"
 
-@app.get("/presentation")
+@app.get("/presentation2")
 def presentation():
     return """
     <h1>Dimitrios Anagostou</h1>
