@@ -8,7 +8,7 @@
 #  Les consignes sont dans le dossier "exercices/".
 # ---------------------------------------------------------------
 
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -26,7 +26,7 @@ def accueil():
 # ---------------------------------------------------------------
 @app.get("/presentation")
 def presentation():
-    return "Je m'appelle Antoine et je suis DJ"
+    return render_template("presentation.html", prenom="Tobiasse", nom="Primitive")
     
 @app.get("/loisirs")
 def loisirs():
