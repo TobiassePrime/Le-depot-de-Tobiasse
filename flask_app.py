@@ -35,7 +35,7 @@ def presentation():
         <li>Gratter la fesse</li>
         <li>gougle coulab</li>
     </ul>
-
+"""
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
 #  sur votre propre ordinateur (python flask_app.py)
