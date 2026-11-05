@@ -28,7 +28,7 @@ def accueil():
 def presentation():
     return "Je m'appelle Antoine et je suis DJ"
     
-@app.get("/presentation")
+@app.get("/loisirs")
 def loisirs():
     return "J'aime la macarena"
     return "J'adore le beatbox"
