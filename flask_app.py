@@ -18,17 +18,21 @@ app = Flask(__name__)
 # Flask exécute la fonction accueil() et renvoie son résultat au navigateur.
 @app.get("/")
 def accueil():
-    return "Ilyas répare les portes du Tzen"
+    return "Bonjour le monde ! (Flask on PythonAnywhere)"
 
 
 # ---------------------------------------------------------------
 #  Ajoutez vos nouvelles routes ci-dessous 👇
 # ---------------------------------------------------------------
-@app.get("/presentation")
-def presentation():
-    return "Je m'appelle Léa et je suis étudiante en informatique."
+
+
+
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
+#  sur votre propre ordinateur (python flask_app.py)
+# ---------------------------------------------------------------
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=True)
 #  sur votre propre ordinateur (python flask_app.py)
 # ---------------------------------------------------------------
 if __name__ == "__main__":
