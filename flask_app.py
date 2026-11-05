@@ -89,7 +89,8 @@ def page_introuvable(erreur):
 
 @app.get("/moi")
 def moi():
-    return render_template("moi.html"),
+    return render_template(
+        "moi.html",
         ip=request.headers.get("X-Real-IP", request.remote_addr),
         navigateur=request.headers.get("User-Agent"),
         langues=request.headers.get("Accept-Language"),
