@@ -36,6 +36,7 @@ def loisirs():
 def presentation2():
     return """
     <h1>Dimitrios Anagostou</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="100">
     <p>Je suis étudiante en <strong>première année de senpai</strong>.</p>
     <h2>Ce que j'aime</h2>
     <ul>
