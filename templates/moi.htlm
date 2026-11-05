@@ -12,10 +12,10 @@
     <p><strong>Vos langues :</strong> {{ langues }}</p>
 
     <h2>Tous les en-têtes reçus</h2>
-    <ul>
-    {% for nom, valeur in entetes %}
-        <li><strong>{{ nom }}</strong> : {{ valeur }}</li>
-    {% endfor %}
-    </ul>
+<ul>
+{% for nom, valeur in entetes.items() %}
+    <li><strong>{{ nom }}</strong> : {{ valeur }}</li>
+{% endfor %}
+</ul>
 </body>
 </html>
