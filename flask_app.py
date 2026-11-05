@@ -30,8 +30,8 @@ def presentation():
     
 @app.get("/loisirs")
 def loisirs():
-   <p> return "J'aime la macarena"
-    return "J'adore le beatbox" </p>
+   <p> "J'aime la macarena"
+   "J'adore le beatbox" </p>
 
 
 # ---------------------------------------------------------------
